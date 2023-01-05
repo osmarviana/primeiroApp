@@ -1,0 +1,19 @@
+.bisc {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: #D46F93;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bisc:hover {
+    color: #d54175;
+    transform:scale(1.02);
+}
+
+.prod {
+    color: #D46F93;
+    font-size: 18px;
+}

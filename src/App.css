@@ -2,9 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.load {
+    width: 110px;
+    height: 20px;
+    margin: 10px;
+    cursor:pointer;
+    border: none;
+    border-radius: 2px;
+    background: rgb(18, 30, 30);
+    font-size: 10px;
+    color: darkseagreen;
+    font-family: fantasy
+}
+
+span {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  color: darkcyan;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.contador {
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+    background: burlywood;
+    font-size: 10px;
+    color: darkblue;
+    font-family: fantasy
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +45,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f0f0f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +57,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.teste {
+  font-size: 80px;
+  color: yellowgreen;
 }
 
 @keyframes App-logo-spin {

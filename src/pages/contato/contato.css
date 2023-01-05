@@ -1,0 +1,25 @@
+.form {
+    margin: 15px auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #a8085d;
+    border-radius: 5px;
+    background-color: #D46F93;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #D46F93;
+}
+
+#cabeçalho {
+    color: #F6D3E6;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#paragrafo {
+    color: #F6D3E6;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+

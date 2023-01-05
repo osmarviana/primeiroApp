@@ -1,0 +1,44 @@
+header {
+    height: 90px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+img {
+    width: 130px;
+    height: auto;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    color: #D46F93;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .1s;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+li:hover {
+    color:brown;
+    transform:scale(1.02);
+}
+
+@media(max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
